@@ -74,13 +74,13 @@ Crie uma função chamada `convertToHex`, com as seguintes características:
 function convertToHex(cor){
       var hexa;
       switch(){
-           case 'vermelho':
+           case 'vermelha':
                 hexa = '#FF0000';
                 break;
            case 'verde':
                 hexa = '#008000';
                 break;
-           case 'preto':
+           case 'preta':
                 hexa = '#000000';
                 break;
            case 'azul':
@@ -98,11 +98,11 @@ function convertToHex(cor){
 /*
 Tente mostrar o hexadecimal de 8 cores diferentes usando a função criada acima.
 */
-console.log(convertToHex('preto'));
-console.log(convertToHex('vermelho'));
-console.log(convertToHex('azul'));
-console.log(convertToHex('verde'));
-console.log(convertToHex('rosa'));
-console.log(convertToHex('amarelo'));
-console.log(convertToHex('cinza'));
-console.log(convertToHex('marrom'));
+console.log(convertToHex('preto')); // O hexadecimal para a cor preta é #000000.
+console.log(convertToHex('vermelho')); // O hexadecimal para a cor vermelha é #FF0000.
+console.log(convertToHex('azul')); // O hexadecimal para a cor azul é #0000FF.
+console.log(convertToHex('verde')); // O hexadecimal para a cor verde é #008000.
+console.log(convertToHex('rosa')); // Não temos o equivalente hexadecimal para rosa '.
+console.log(convertToHex('amarelo')); // Não temos o equivalente hexadecimal para amarelo.
+console.log(convertToHex('cinza')); // Não temos o equivalente hexadecimal para cinza.
+console.log(convertToHex('marrom')); // Não temos o equivalente hexadecimal para marrom.
